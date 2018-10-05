@@ -10,11 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
         android:textSize="24sp"
         android:text="Pontuação: 0"
         android:gravity="center"
         android:id="@+id/tvPontuacao"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:text="Venceu/Perdeu/Empatou"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,12 +36,14 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/ivJogador"
+            android:src="@drawable/bulbasaur"
             android:layout_weight="1"/>
 
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/ivComputador"
+            android:src="@drawable/bulbasaur"
             android:layout_weight="1"/>
     </LinearLayout>
 

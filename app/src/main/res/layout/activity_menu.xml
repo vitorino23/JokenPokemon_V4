@@ -16,6 +16,7 @@
         android:textSize="40dp"/>
 
     <Button
+        android:id="@+id/btJogar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -23,6 +24,7 @@
         android:text="Jogar"/>
 
     <Button
+        android:id="@+id/btRanking"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -30,6 +32,7 @@
         android:text="Ranking"/>
 
     <Button
+        android:id="@+id/btSobre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -37,6 +40,7 @@
         android:text="Sobre"/>
 
     <Button
+        android:id="@+id/btSair"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
